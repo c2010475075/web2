@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>GetMeThis</title>
+    <meta lang="de"
+          content="simple ✅ free  ✅ Mit nur zwei Klicks eine eigene Wunschliste anlegen! Passend für Geburtstag, Hochzeit, Weihnachten, Baby uvm."
+          name="description"/>
+    <title>🎁 GetMeThis</title>
+    <link rel="icon" href="images/Tabicon.PNG">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
-
 <header>
     <a class="logo" href="main.html"><img src="images/Logo_first.png" alt="logo"></a>
     <nav>
         <ul class="nav__links">
-            <li><a href="#">Search</a></li>
             <li><a href="#">Create Wishlist</a></li>
             <li><a href="#">Friends</a></li>
             <li><a href="About%20us.html">About us</a></li>
+
         </ul>
     </nav>
     <a class="cta" href="signup.html">Login / Sign-up</a>
@@ -28,22 +32,99 @@
 <div class="overlay">
     <a class="close">&times;</a>
     <div class="overlay__content">
-        <a href="#">Search</a>
+
         <a href="#">Create Wishlist</a>
         <a href="#">Friends</a>
         <a href="#">About us</a>
         <a href="signup.html">Login</a>
     </div>
 </div>
+
+
 <main>
-    <section class="welcome">
-        <div class="welcome-block">
-            <h1>No More Collection Of Unwanted Gifts</h1>
-            <p class="welcome">We make it easy for you to to collate, organize and keep track of the things you really want. Perhaps use this to store bucket type wish-list that keeps your dreams alive. We also make it easy to share your list with friends and family. What’s on your wish-list? What do you do if you’re trying to live sustainably or minimally but your family or friends love giving presents? This can be a difficult topic and conversation to have. Gift giving a certain way can become a tradition for families and people generally aren’t happy with change – especially with traditions. You could all use a wish-list. On this site, everyone lists things they’d like, you can then share it with a group and mark things that are purchased so there won’t be duplicates. This way people can ask for things they "actually want" and it makes shopping easier for everyone.</p>
+    <section id="teaser">
+        <div class="container">
 
+            <div id="call-to-actions">
+                <div class="row">
+                    <div class="column column-1-3">
+                        <h1>Gifts what you really want</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column column-1-3">
+                        <h2>Create your own wishlist within
+                            <span style="text-decoration: underline;">2 clicks</span>
+                            and share it with your friends and family.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="column column-1-3">
+                <img class="fade-in" src="/images/teaserBG.jpg">
+            </div>
         </div>
-
+        <div class="row">
+            <div class="column column-1-3 action-buttons">
+                <div class="new-wishlist-button">
+                    <a class="button" title="Create a Wishlist" href="newWishlist">Create a Wishlist</a>
+                </div>
+            </div>
+        </div>
+        <!-- Reihe -->
+        <div id="summary" class="row">
+            <ul>
+                <li class="fade-in">
+                    <span style="font-weight: bold; font-size: 32px">✔</span>
+                    Free
+                </li>
+                <li class="fade-in">
+                    <span style="font-weight: bold;font-size: 32px">✔</span>
+                    User friendly
+                </li>
+                <li class="fade-in">
+                    <span style="font-weight: bold;font-size:32px;">✔</span>
+                    Easy
+                </li>
+            </ul>
+        </div>
     </section>
+    <section id="howto">
+        <div class="container">
+            <div class="row">
+                <h2>Wishlist in three steps</h2>
+            </div>
+            <div class="row">
+                <div class="column column-1">
+                    <img src="/images/Add_Wishlist.png" alt="Add wishlist">
+                    <h3>1. Wunschliste anlegen</h3>
+                    <p>
+                        Lege ohne vorherige Registrierung eine eigene Wunschliste an - vollkommen kostenlos. Ergänze so
+                        viele Wünsche wie du möchtest z.B. direkt aus einem Online-Shop, vom Blumengeschäft um die Ecke
+                        oder über unsere integrierte Wunschsuche.
+                    </p>
+                </div>
+                <div class="column column-1">
+                    <img src="/images/@.png" alt="Forward wishlist">
+                    <h3>2. Wunschliste verteilen</h3>
+                    <p>
+                        Verschicke deine Wunschliste an deine Freunde und Verwandten. Nur wer eingeladen wird hat
+                        Zugriff auf deine Wunschliste. Ungebetene Gäste bleiben draußen.
+                    </p>
+                </div>
+                <div class="column column-1">
+                    <img src="/assets/present-857f80e….png" alt="Present">
+                    <h3>3. Wunschgeschenke bekommen</h3>
+                    <p>
+                        Besucher deiner Wunschliste können sich die Wünsche, die sie gerne erfüllen möchten,
+                        reservieren. So gibt es nie wieder ein Geschenk doppelt.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 </main>
 <script type="text/javascript" src="mobile.js"></script>

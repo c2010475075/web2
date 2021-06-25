@@ -8,14 +8,17 @@ html {
 
 .column {
     float: left;
-    width: 33.3%;
+    width: 50%;
     margin-bottom: 16px;
     padding: 0 8px;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
+
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
 }
 
 .about-section {
@@ -54,6 +57,12 @@ html {
 .button:hover {
     background-color: #555;
 }
+a:link{
+    color: white;
+    text-decoration: none;
+
+}
+
 
 .p {
     padding: 0;
@@ -64,6 +73,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+
 }
 
 @media screen and (max-width: 650px) {

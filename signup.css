@@ -3,7 +3,7 @@ body {
     --color-primary-dark: #007f67;
     --color-secondary: #252c6a;
     --color-error: #cc3333;
-    --color-success: #4bb544;
+    --color-success: blue;
     --border-radius: 4px;
 
     margin: 0;
@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    background: url(images/background.jpg);
+    background: url(images/Loginbg.jpg);
     background-size: cover;
 }
 
